@@ -1,0 +1,28 @@
+{
+  "name": "bpm.ymatou.com",
+  "version": "1.0.0",
+  "description": "Browser package management.",
+  "main": "bin/www",
+  "scripts": {
+    "test": "mocha",
+    "start": "node bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@172.16.100.22:wanghaiyang/bpm.ymatou.com.git"
+  },
+  "author": "wanghaiyang",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "art-template": "^3.0.3",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "formidable": "^1.0.17",
+    "querystring": "^0.2.0",
+    "serve-index": "^1.7.3",
+    "uuid": "^2.0.1"
+  }
+}
